@@ -1,0 +1,201 @@
+body {
+    display: flex;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    background: #05B993 url("https://devcareer.io/images/bg.svg") right;
+    height: 100vh !important;
+    width: 65%;
+}
+
+.toplink {
+    text-align: right !important;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.toplink a {
+    color: #888 !important;
+}
+
+.profile img {
+    border: 5px #FFFFFF solid;
+    margin-top: 100px;
+}
+
+
+/* .profile {
+    background: #05B993 url("https://devcareer.io/images/bg.svg") right;
+    height: 100vh !important;
+} */
+
+.container h1 {
+    display: none;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 5%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #FFFFFF !important;
+    color: #222 !important;
+    border-radius: 2px;
+    width: 300px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #333333 !important;
+    color: #FFFFFF !important;
+}
+
+.box-right {
+    background: #FFFFFF;
+    height: 100vh !important;
+}
+
+.info {
+    padding: 0px 100px 50px 100px !important;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+hr.bio-list {
+    width: 100%;
+    display: inline-block;
+    margin-top: 5%;
+    border: 2px #05B993 solid !important;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.social-handle1 {
+    border-color: #3b5999;
+}
+
+.social-handle2 {
+    border-color: #333333;
+}
+
+.social-handle3 {
+    border-color: #c32aa3;
+}
+
+.social-handle4 {
+    border-color: #0077B5;
+}
+
+.social-handle5 {
+    border-color: #02b875;
+}
+
+.social-handle6 {
+    border-color: #1da1f2;
+}
+
+a {
+    text-decoration: none;
+}
+
+.facebook {
+    display: inline;
+    border-color: #3b5999;
+}
+
+b {
+    color: darkgoldenrod;
+}
+
+span {
+    display: inline-block;
+    padding: 1%;
+    background: transparent;
+    background-color: #333333;
+    color: #ddd;
+}
+
+hr {
+    display: none;
+}
+
+@media(max-width:767px) {
+    .main {
+        display: inline;
+    }
+    .profile img {
+        border: 5px #FFFFFF solid;
+        margin-top: 0px;
+        width: 100% !important;
+        border-radius: 1px;
+        background-size: contain !important;
+    }
+    .info h1 {
+        display: none;
+    }
+    .toplink {
+        text-align: center !important;
+        margin-top: 20px;
+        margin-right: 20px;
+        border-bottom: 1px #ddd solid;
+    }
+    .toplink a {
+        color: #888 !important;
+    }
+    .profile img {
+        border: 5px #FFFFFF solid;
+        margin-top: 0px;
+        width: 100% !important;
+        border-radius: 1px;
+        background-size: contain !important;
+    }
+    .container {
+        background: #05B993 url("https://devcareer.io/images/bg.svg") right bottom;
+        height: 64% !important;
+        width: 100%;
+    }
+    .box-right {
+        height: 100% !important;
+    }
+    .info {
+        margin-top: 25%;
+        padding: 0px 20px 50px 20px !important;
+    }
+    span {
+        display: inline;
+    }
+    .container h1 {
+        display: inline-block;
+    }
+    .btn {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background: #FFFFFF !important;
+        color: #222 !important;
+        border-radius: 2px;
+        width: 300px;
+    }
+}
