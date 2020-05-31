@@ -95,26 +95,45 @@ ul li {
 
 .social-handle1 {
     border-color: #3b5999;
+    width:60px;
+    height:60px;
+    border-radius:50%;
 }
 
 .social-handle2 {
     border-color: #333333;
-}
+    width:60px;
+    height:60px;
+    border-radius:5
+
+} 
 
 .social-handle3 {
     border-color: #c32aa3;
+  width:60px;
+    height:60px;
+    border-radius:5
 }
 
 .social-handle4 {
     border-color: #0077B5;
+  width:60px;
+    height:60px;
+    border-radius:5
 }
 
 .social-handle5 {
     border-color: #02b875;
+  width:60px;
+    height:60px;
+    border-radius:5
 }
 
 .social-handle6 {
     border-color: #1da1f2;
+  width:60px;
+    height:60px;
+    border-radius:5
 }
 
 a {
